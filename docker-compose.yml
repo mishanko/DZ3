@@ -5,6 +5,7 @@ services:
     image: mishanko/pet-project:api
     volumes:
       - ./worker/models:/usr/src/app/worker/models
+      - ./logs/:/usr/src/app/logs
     ports:
       - 8080:8080
     restart: always

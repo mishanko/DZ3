@@ -22,7 +22,7 @@ class MLModels(Resource):
        и гиперпараметров
     """
     def get(self) -> list:
-        log.info(f'INFO: Trained models = {models_dao._trained_models}')
+        log.info(f'Trained models = {models_dao._trained_models}')
         return models_dao._ml_models
 
 
@@ -36,12 +36,11 @@ class MLModel(Resource):
         try:
             name = models_dao._ml_models[id-1]["name"]
             trained = models_dao._ml_models[id-1]["trained"]
-            log.info(f'INFO: Trained models = {models_dao._trained_models[id]}')
-            log.info(f'INFO:\nModel id = {id}\nclass = {name}\ntrained = {trained}')
+            log.info(f'MODEL id = {id} class = {name} trained = {trained}')
             model = db_model.view_all(id)
             return model, 200
         except IndexError as e:
-            log.error("ERROR: Entered invalid model number")
+            log.error("Entered invalid model ID")
             api.abort(404, e)
 
 
@@ -55,10 +54,11 @@ class MLModelTrain(Resource):
         model = load(model)
         self._save_model(model, id)
         data = {'trained': True} 
+        log.info("Model 'trained' status changed to True")
         return models_dao.update(id, data), 200
 
     def _train(self, id:int) -> Union[DT, LR, NoReturn]:
-        log.info("INFO: Preparing to train...",)
+        log.info("Preparing to train...",)
         try: 
             df = api.payload
             if 'H' in df.keys():
@@ -68,25 +68,25 @@ class MLModelTrain(Resource):
                 model = models[id]()
             X = df['X']
             y = df['y']
-            log.info("INFO: Start training",)
+            log.info("Start training",)
             
             path = f'./worker/models/model_{models_dao.num}.joblib'
             dump(model, path)
             # посылаем в контенер для обучения
             task = celery.send_task("train", args=[X, y, path])
             
-            log.info("INFO: Training finished!")
+            log.info("Training finished!")
             return path
         except KeyError or AttributeError as e:
-            log.error("ERROR: Looks like you either forget X or y values")
+            log.error("Looks like you either forget X or y values")
             api.abort(404, e)
 
     def _save_model(self, model:Union[DT, LR], id:int):
-        log.info(f"INFO: Saving the model...")
+        log.info(f"Saving the model...")
         models_dao._trained_models[id][str(models_dao.num)] = model
         path = f'./worker/models/model_{models_dao.num}.joblib'
         self._add_to_bd(path, int(id))
-        log.info(f"INFO: Trained models: {models_dao._trained_models}")
+        # log.info(f"Trained models: {models_dao._trained_models}")
         models_dao.num += 1
 
     def _add_to_bd(self, path, id): 
@@ -96,7 +96,8 @@ class MLModelTrain(Resource):
             'path': path
             }
         db_model.post(item_doc)
-        log.info(db_model.get(int(models_dao.num)))
+        log.info(f"Model saved and added to DB {db_model.get(int(models_dao.num))}")
+        # log.info(db_model.get(int(models_dao.num)))
 
 
 @api.route('/api/ml_models/<int:id>/predict')
@@ -106,7 +107,7 @@ class MLModelPredict(Resource):
 
     def post(self, id:int) -> Tuple[dict, int]: 
         prediction = self._predict()
-        log.info(f"INFO: Here is the prediction: {prediction} for {id}")
+        log.info(f"Here is the prediction: {prediction} for {id}")
         return prediction, 200
 
 
@@ -117,11 +118,11 @@ class MLModelPredict(Resource):
             model = db_model.get(int(number))
             model = load(model['path'])
             X_new = np.fromiter(df['X'], dtype=float)
-            log.info(model)
+            # log.info(model)
             prediction = {'Prediction': str(model.predict([X_new]))}
             return prediction
         except KeyError as e:
-            log.error("ERROR: Invalid model number or No trained models")
+            log.error("Invalid model number or No trained models")
             api.abort(404, e)
 
 
@@ -137,12 +138,13 @@ class MLModelDelete(Resource):
             if num in models_dao._trained_models[id].keys():
                 models_dao.delete(id, num)
                 path = db_model.get(id=int(num))['path']
-                log.info(path)
+                # log.info(path)
                 db_model.delete(id=int(num))
                 os.system(f"rm -rf {path}")
-                log.info(f"INFO: model {num} deleted")
+                log.info(f"Model {num} deleted")
                 return '', 204
             else:
+                log.error("No model with this number")
                 api.abort(404, "WARNING: No model with this number")
 
         except KeyError as e:
@@ -167,16 +169,16 @@ class MLModelRetrain(MLModelTrain):
             X = df['X']
             y = df['y']
             self.num = str(df['num'])
-            log.info("INFO: Start training",)
+            log.info("Start training")
             
             path = f'./worker/models/model_{self.num}.joblib'
             dump(model, path)
             task = celery.send_task("train", args=[X, y, path])
             
-            log.info("INFO: Training finished!")
+            log.info("Training finished!")
             return path
         except KeyError as e:
-            log.error("ERROR: Looks like you forget X or num values")
+            log.error("Looks like you forget X or num values")
             api.abort(404, e)
 
     def _save_model(self, model:Union[DT, LR], id:int):
@@ -190,4 +192,5 @@ class MLModelRetrain(MLModelTrain):
             'path': path
             }
         db_model.put(id=int(self.num), data=item_doc)
-        log.info(db_model.get(int(models_dao.num)))
+        log.info(f"Model saved and added to DB {db_model.get(int(models_dao.num))}")
+        # log.info(db_model.get(int(models_dao.num)))
