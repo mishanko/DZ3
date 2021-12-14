@@ -63,6 +63,7 @@ class MLModelTrain(Resource):
             df = api.payload
             if 'H' in df.keys():
                 hypers = df['H']
+                log.info(f"Model's hyperparameters: {hypers}")
                 model = models[id](**hypers)
             else:
                 model = models[id]()
@@ -183,6 +184,8 @@ class MLModelRetrain(MLModelTrain):
 
     def _save_model(self, model:Union[DT, LR], id:int):
         models_dao._trained_models[id][self.num] = model
+        path = f'./worker/models/model_{self.num}.joblib'
+        self._add_to_bd(path, int(id))
         log.info(models_dao._trained_models)
 
     def _add_to_bd(self, path, id):

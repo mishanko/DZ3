@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   api:
-    image: mishanko/pet-project:api
+    build: .
     volumes:
       - ./worker/models:/usr/src/app/worker/models
-      - ./logs/:/usr/src/app/logs
+      - ./logs:/usr/src/app/logs
     ports:
       - 8080:8080
     restart: always
@@ -18,7 +18,7 @@ services:
     image: mongo:latest
 
   worker:
-    image: mishanko/pet-project:worker
+    build: ./worker
     volumes:
       - ./worker/models:/usr/src/app/worker/models
     depends_on:

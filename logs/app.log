@@ -1,2 +1,306 @@
-14-Dec-21 20:31:05 - root - INFO - Admin logged in
-14-Dec-21 20:31:08 - root - INFO - Admin logged in
+14-Dec-21 18:09:14 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Dec-21 18:09:14 - werkzeug - INFO -  * Running on http://172.21.0.5:8080/ (Press CTRL+C to quit)
+14-Dec-21 18:09:19 - log - INFO - Trained models = {1: {}, 2: {}}
+14-Dec-21 18:09:19 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:09:19] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:09:42 - log - INFO - Trained models = {1: {}, 2: {}}
+14-Dec-21 18:09:42 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:09:42] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:09:59 - log - INFO - MODEL id = 1 class = logreg trained = False
+14-Dec-21 18:09:59 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:09:59] "GET /api/ml_models/1 HTTP/1.1" 200 -
+14-Dec-21 18:10:11 - log - INFO - MODEL id = 2 class = tree trained = False
+14-Dec-21 18:10:11 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:10:11] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:10:17 - log - ERROR - Entered invalid model ID
+14-Dec-21 18:10:17 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:10:17] "[33mGET /api/ml_models/3 HTTP/1.1[0m" 404 -
+14-Dec-21 18:10:29 - log - INFO - MODEL id = 1 class = logreg trained = False
+14-Dec-21 18:10:29 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:10:29] "GET /api/ml_models/1 HTTP/1.1" 200 -
+14-Dec-21 18:11:56 - log - INFO - Preparing to train...
+14-Dec-21 18:11:56 - log - INFO - Start training
+14-Dec-21 18:11:56 - log - INFO - Training finished!
+14-Dec-21 18:11:56 - log - INFO - Saving the model...
+14-Dec-21 18:11:56 - log - INFO - 61b8de6c426d637181a346b7
+14-Dec-21 18:11:56 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8de6c426d637181a346b7'), 'id': 0, 'num': 1, 'path': './worker/models/model_0.joblib'}
+14-Dec-21 18:11:56 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:11:56 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:11:56] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
+14-Dec-21 18:12:53 - log - INFO - Preparing to train...
+14-Dec-21 18:12:53 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 53, in put
+    model = self._train(id)
+  File "/usr/src/app/app/views.py", line 66, in _train
+    model = models[id](**hypers)
+TypeError: type object argument after ** must be a mapping, not str
+14-Dec-21 18:12:53 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:12:53] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
+14-Dec-21 18:12:55 - log - INFO - Preparing to train...
+14-Dec-21 18:12:55 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 53, in put
+    model = self._train(id)
+  File "/usr/src/app/app/views.py", line 66, in _train
+    model = models[id](**hypers)
+TypeError: type object argument after ** must be a mapping, not str
+14-Dec-21 18:12:55 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:12:55] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
+14-Dec-21 18:13:21 - log - INFO - Preparing to train...
+14-Dec-21 18:13:21 - log - INFO - Start training
+14-Dec-21 18:13:21 - log - INFO - Training finished!
+14-Dec-21 18:13:21 - log - INFO - Saving the model...
+14-Dec-21 18:13:21 - log - INFO - 61b8dec1426d637181a346b8
+14-Dec-21 18:13:21 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8dec1426d637181a346b8'), 'id': 1, 'num': 1, 'path': './worker/models/model_1.joblib'}
+14-Dec-21 18:13:21 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:13:21 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:13:21] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
+14-Dec-21 18:14:24 - log - INFO - Preparing to train...
+14-Dec-21 18:14:24 - log - INFO - Start training
+14-Dec-21 18:14:24 - log - INFO - Training finished!
+14-Dec-21 18:14:24 - log - INFO - Saving the model...
+14-Dec-21 18:14:24 - log - INFO - 61b8df00426d637181a346b9
+14-Dec-21 18:14:24 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8df00426d637181a346b9'), 'id': 2, 'num': 2, 'path': './worker/models/model_2.joblib'}
+14-Dec-21 18:14:24 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:14:24 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:14:24] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:14:56 - log - INFO - Trained models = {1: {'0': LogisticRegression(), '1': LogisticRegression(max_iter=1000)}, 2: {'2': DecisionTreeClassifier()}}
+14-Dec-21 18:14:56 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:14:56] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:15:23 - log - INFO - Preparing to train...
+14-Dec-21 18:15:23 - log - INFO - Start training
+14-Dec-21 18:15:23 - log - INFO - Training finished!
+14-Dec-21 18:15:23 - log - INFO - Saving the model...
+14-Dec-21 18:15:23 - log - INFO - 61b8df3b426d637181a346ba
+14-Dec-21 18:15:23 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8df3b426d637181a346ba'), 'id': 3, 'num': 2, 'path': './worker/models/model_3.joblib'}
+14-Dec-21 18:15:23 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:15:23 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:15:23] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:16:08 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:16:08] "[31m[1mPUT /api/ml_models/2 HTTP/1.1[0m" 405 -
+14-Dec-21 18:16:11 - log - INFO - MODEL id = 2 class = tree trained = True
+14-Dec-21 18:16:11 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:16:11] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:16:32 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:16:32] "[33mPOST /api/ml_models/2/prediction HTTP/1.1[0m" 404 -
+14-Dec-21 18:16:36 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:16:36] "[33mPOST /api/ml_models/2/prediction HTTP/1.1[0m" 404 -
+14-Dec-21 18:17:07 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 2
+14-Dec-21 18:17:07 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:17:07] "POST /api/ml_models/2/predict HTTP/1.1" 200 -
+14-Dec-21 18:17:53 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 2
+14-Dec-21 18:17:53 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:17:53] "POST /api/ml_models/2/predict HTTP/1.1" 200 -
+14-Dec-21 18:18:01 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 1
+14-Dec-21 18:18:01 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:18:01] "POST /api/ml_models/1/predict HTTP/1.1" 200 -
+14-Dec-21 18:18:08 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 1
+14-Dec-21 18:18:08 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:18:08] "POST /api/ml_models/1/predict HTTP/1.1" 200 -
+14-Dec-21 18:18:48 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:18:48 - log - INFO - Start training
+14-Dec-21 18:18:48 - log - INFO - Training finished!
+14-Dec-21 18:18:48 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(max_depth=5)}}
+14-Dec-21 18:18:48 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:18:48 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:18:48] "PUT /api/ml_models/1/retrain HTTP/1.1" 200 -
+14-Dec-21 18:20:41 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:20:41 - log - INFO - Start training
+14-Dec-21 18:20:41 - log - INFO - Training finished!
+14-Dec-21 18:20:41 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(max_depth=5)}}
+14-Dec-21 18:20:41 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:20:41 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:20:41] "PUT /api/ml_models/1/retrain HTTP/1.1" 200 -
+14-Dec-21 18:20:54 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:20:54 - log - INFO - Start training
+14-Dec-21 18:20:54 - log - INFO - Training finished!
+14-Dec-21 18:20:54 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(max_depth=5)}}
+14-Dec-21 18:20:54 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:20:54 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:20:54] "PUT /api/ml_models/1/retrain HTTP/1.1" 200 -
+14-Dec-21 18:21:55 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:21:55 - log - INFO - Start training
+14-Dec-21 18:21:55 - log - INFO - Training finished!
+14-Dec-21 18:21:55 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(max_depth=5)}}
+14-Dec-21 18:21:55 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:21:55 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:21:55] "PUT /api/ml_models/1/retrain HTTP/1.1" 200 -
+14-Dec-21 18:21:58 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:21:58 - log - INFO - Start training
+14-Dec-21 18:21:58 - log - INFO - Training finished!
+14-Dec-21 18:21:58 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(max_depth=5)}}
+14-Dec-21 18:21:58 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:21:58 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:21:58] "PUT /api/ml_models/1/retrain HTTP/1.1" 200 -
+14-Dec-21 18:22:25 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:22:25 - log - INFO - Start training
+14-Dec-21 18:22:25 - log - INFO - Training finished!
+14-Dec-21 18:22:25 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier()}}
+14-Dec-21 18:22:25 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:22:25 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:22:25] "PUT /api/ml_models/2/retrain HTTP/1.1" 200 -
+14-Dec-21 18:22:36 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:22:36 - log - INFO - Start training
+14-Dec-21 18:22:36 - log - INFO - Training finished!
+14-Dec-21 18:22:36 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier()}}
+14-Dec-21 18:22:36 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:22:36 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:22:36] "PUT /api/ml_models/2/retrain HTTP/1.1" 200 -
+14-Dec-21 18:22:44 - log - INFO - INFO: Prepating to retrain...
+14-Dec-21 18:22:44 - log - INFO - Start training
+14-Dec-21 18:22:44 - log - INFO - Training finished!
+14-Dec-21 18:22:44 - log - INFO - {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': DecisionTreeClassifier(), '3': DecisionTreeClassifier(), '1': DecisionTreeClassifier()}}
+14-Dec-21 18:22:44 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:22:44 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:22:44] "PUT /api/ml_models/2/retrain HTTP/1.1" 200 -
+14-Dec-21 18:23:03 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:03] "[31m[1mPUT /api/ml_models/2/delete HTTP/1.1[0m" 405 -
+14-Dec-21 18:23:07 - log - INFO - Model 1 deleted
+14-Dec-21 18:23:07 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:07] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:23:25 - log - INFO - Model 2 deleted
+14-Dec-21 18:23:25 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:25] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:23:28 - log - INFO - Model 3 deleted
+14-Dec-21 18:23:28 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:28] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:23:44 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:44] "[31m[1mDELETE /api/ml_models/2 HTTP/1.1[0m" 405 -
+14-Dec-21 18:23:47 - log - INFO - MODEL id = 2 class = tree trained = False
+14-Dec-21 18:23:47 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:47] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:23:56 - log - INFO - Trained models = {1: {'0': LogisticRegression(), '1': LogisticRegression(), '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': None, '3': None, '1': None}}
+14-Dec-21 18:23:56 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:23:56] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:24:18 - log - INFO - Model 0 deleted
+14-Dec-21 18:24:18 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:24:18] "[35m[1mDELETE /api/ml_models/1/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:24:26 - app - ERROR - Exception on /api/ml_models/1/delete [DELETE]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 140, in delete
+    path = db_model.get(id=int(num))['path']
+TypeError: 'NoneType' object is not subscriptable
+14-Dec-21 18:24:26 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:24:26] "[35m[1mDELETE /api/ml_models/1/delete HTTP/1.1[0m" 500 -
+14-Dec-21 18:24:40 - log - INFO - Trained models = {1: {'0': None, '1': None, '2': LogisticRegression(), '3': LogisticRegression()}, 2: {'2': None, '3': None, '1': None}}
+14-Dec-21 18:24:40 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:24:40] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:24:58 - app - ERROR - Exception on /api/ml_models/1/delete [DELETE]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 140, in delete
+    path = db_model.get(id=int(num))['path']
+TypeError: 'NoneType' object is not subscriptable
+14-Dec-21 18:24:58 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:24:58] "[35m[1mDELETE /api/ml_models/1/delete HTTP/1.1[0m" 500 -
+14-Dec-21 18:25:25 - log - INFO - Trained models = {1: {'0': None, '1': None, '2': None, '3': LogisticRegression()}, 2: {'2': None, '3': None, '1': None}}
+14-Dec-21 18:25:25 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:25:25] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:25:41 - app - ERROR - Exception on /api/ml_models/1/delete [DELETE]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 140, in delete
+    path = db_model.get(id=int(num))['path']
+TypeError: 'NoneType' object is not subscriptable
+14-Dec-21 18:25:41 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:25:41] "[35m[1mDELETE /api/ml_models/1/delete HTTP/1.1[0m" 500 -
+14-Dec-21 18:25:53 - log - INFO - Trained models = {1: {'0': None, '1': None, '2': None, '3': None}, 2: {'2': None, '3': None, '1': None}}
+14-Dec-21 18:25:53 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:25:53] "GET /api/ml_models HTTP/1.1" 200 -
+14-Dec-21 18:27:58 - log - INFO - MODEL id = 1 class = logreg trained = False
+14-Dec-21 18:27:58 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:27:58] "GET /api/ml_models/1 HTTP/1.1" 200 -
+14-Dec-21 18:28:09 - log - INFO - MODEL id = 2 class = tree trained = False
+14-Dec-21 18:28:09 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:28:09] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:30:05 - log - INFO - Preparing to train...
+14-Dec-21 18:30:05 - log - INFO - Start training
+14-Dec-21 18:30:05 - log - INFO - Training finished!
+14-Dec-21 18:30:05 - log - INFO - Saving the model...
+14-Dec-21 18:30:05 - log - INFO - 61b8e2ad426d637181a346bb
+14-Dec-21 18:30:05 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2ad426d637181a346bb'), 'id': 4, 'num': 2, 'path': './worker/models/model_4.joblib'}
+14-Dec-21 18:30:05 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:05 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:05] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:06 - log - INFO - Preparing to train...
+14-Dec-21 18:30:06 - log - INFO - Start training
+14-Dec-21 18:30:06 - log - INFO - Training finished!
+14-Dec-21 18:30:06 - log - INFO - Saving the model...
+14-Dec-21 18:30:06 - log - INFO - 61b8e2ae426d637181a346bc
+14-Dec-21 18:30:06 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2ae426d637181a346bc'), 'id': 5, 'num': 2, 'path': './worker/models/model_5.joblib'}
+14-Dec-21 18:30:06 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:06 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:06] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:07 - log - INFO - Preparing to train...
+14-Dec-21 18:30:07 - log - INFO - Start training
+14-Dec-21 18:30:07 - log - INFO - Training finished!
+14-Dec-21 18:30:07 - log - INFO - Saving the model...
+14-Dec-21 18:30:07 - log - INFO - 61b8e2af426d637181a346bd
+14-Dec-21 18:30:07 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2af426d637181a346bd'), 'id': 6, 'num': 2, 'path': './worker/models/model_6.joblib'}
+14-Dec-21 18:30:07 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:07 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:07] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:07 - log - INFO - Preparing to train...
+14-Dec-21 18:30:07 - log - INFO - Start training
+14-Dec-21 18:30:07 - log - INFO - Training finished!
+14-Dec-21 18:30:07 - log - INFO - Saving the model...
+14-Dec-21 18:30:07 - log - INFO - 61b8e2af426d637181a346be
+14-Dec-21 18:30:07 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2af426d637181a346be'), 'id': 7, 'num': 2, 'path': './worker/models/model_7.joblib'}
+14-Dec-21 18:30:07 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:07 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:07] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:08 - log - INFO - Preparing to train...
+14-Dec-21 18:30:08 - log - INFO - Start training
+14-Dec-21 18:30:08 - log - INFO - Training finished!
+14-Dec-21 18:30:08 - log - INFO - Saving the model...
+14-Dec-21 18:30:08 - log - INFO - 61b8e2b0426d637181a346bf
+14-Dec-21 18:30:08 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2b0426d637181a346bf'), 'id': 8, 'num': 2, 'path': './worker/models/model_8.joblib'}
+14-Dec-21 18:30:08 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:08 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:08] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:09 - log - INFO - Preparing to train...
+14-Dec-21 18:30:09 - log - INFO - Start training
+14-Dec-21 18:30:09 - log - INFO - Training finished!
+14-Dec-21 18:30:09 - log - INFO - Saving the model...
+14-Dec-21 18:30:09 - log - INFO - 61b8e2b1426d637181a346c0
+14-Dec-21 18:30:09 - log - INFO - Model saved and added to DB {'_id': ObjectId('61b8e2b1426d637181a346c0'), 'id': 9, 'num': 2, 'path': './worker/models/model_9.joblib'}
+14-Dec-21 18:30:09 - log - INFO - Model 'trained' status changed to True
+14-Dec-21 18:30:09 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:09] "PUT /api/ml_models/2/train HTTP/1.1" 200 -
+14-Dec-21 18:30:31 - log - INFO - MODEL id = 2 class = tree trained = True
+14-Dec-21 18:30:31 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:31] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:30:52 - log - ERROR - No model with this number
+14-Dec-21 18:30:52 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:52] "[33mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 404 -
+14-Dec-21 18:30:57 - log - INFO - Model 4 deleted
+14-Dec-21 18:30:57 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:57] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:30:59 - app - ERROR - Exception on /api/ml_models/2/delete [DELETE]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/api.py", line 403, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/flask_restx/resource.py", line 49, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 140, in delete
+    path = db_model.get(id=int(num))['path']
+TypeError: 'NoneType' object is not subscriptable
+14-Dec-21 18:30:59 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:30:59] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 500 -
+14-Dec-21 18:31:14 - log - INFO - MODEL id = 2 class = tree trained = True
+14-Dec-21 18:31:14 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:31:14] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:31:27 - log - INFO - Model 7 deleted
+14-Dec-21 18:31:27 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:31:27] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:31:49 - log - INFO - Model 8 deleted
+14-Dec-21 18:31:49 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:31:49] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:31:54 - log - INFO - MODEL id = 2 class = tree trained = True
+14-Dec-21 18:31:54 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:31:54] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:33:31 - log - INFO - Model 5 deleted
+14-Dec-21 18:33:31 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:31] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:33:34 - log - INFO - Model 6 deleted
+14-Dec-21 18:33:34 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:34] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:33:37 - log - INFO - Model 9 deleted
+14-Dec-21 18:33:37 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:37] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
+14-Dec-21 18:33:49 - log - INFO - MODEL id = 2 class = tree trained = False
+14-Dec-21 18:33:49 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:49] "GET /api/ml_models/2 HTTP/1.1" 200 -
