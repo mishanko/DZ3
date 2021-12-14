@@ -8,3 +8,4 @@ joblib==1.0.1
 pymongo==4.0
 celery==4.4.0
 redis==4.0.2
+prometheus-flask-exporter==0.18.6

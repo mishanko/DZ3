@@ -3,6 +3,7 @@ from app import api, models_dao, celery
 from app import db_model
 import os
 from joblib import dump, load
+from app import metrics
 
 from log import log
 from typing import Tuple, Union, NoReturn
@@ -21,6 +22,7 @@ class MLModels(Resource):
     """Класс для отображения списка доступных для обучения моделей
        и гиперпараметров
     """
+    @metrics.counter('cnt_gets', 'Number_of_gets', labels={'status': lambda resp:resp.status_code})
     def get(self) -> list:
         log.info(f'Trained models = {models_dao._trained_models}')
         return models_dao._ml_models

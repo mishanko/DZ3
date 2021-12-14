@@ -14,7 +14,7 @@ class MLModelsDAO:
                                 2: {}}
 
         # словарь доступных для обучения моделей и их гиперпараметры
-        self._ml_models = [{'id':1, 'name':'logreg', 'hyperparameters':{"max_iter":"int",
+        self._ml_models = ({'id':1, 'name':'logreg', 'hyperparameters':{"max_iter":"int",
                                                                         "penalty":["l1", "l2", "elasticnet"],
                                                                         "tol":"float",
                                                                         "C":"float",
@@ -29,7 +29,7 @@ class MLModelsDAO:
                                                                       "min_weight_fraction_leaf": "float",
                                                                       "max_features":"int or float or [auto, sqrt, log2]",
                                                                       }, 
-                                                                      'trained':False}]
+                                                                      'trained':False})
 
 
     def get(self, id:int) -> Union[Tuple[dict, dict], NoReturn]:

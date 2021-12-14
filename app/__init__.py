@@ -4,6 +4,7 @@ from .ml_models import MLModelsDAO
 from .database import Model
 from pymongo import MongoClient
 from celery import Celery
+from prometheus_flask_exporter import PrometheusMetrics
 from config import CELERY_BACKEND, CELERY_BROKER, MONGODB, MONGO_PORT
 
 client = MongoClient(MONGODB, int(MONGO_PORT))
@@ -16,5 +17,6 @@ models_dao = MLModelsDAO()
 
 application = Flask(__name__)
 api = Api(application)
+metrics = PrometheusMetrics(application)
 
 from app import views
