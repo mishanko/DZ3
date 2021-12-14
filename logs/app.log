@@ -304,3 +304,6 @@ TypeError: 'NoneType' object is not subscriptable
 14-Dec-21 18:33:37 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:37] "[35m[1mDELETE /api/ml_models/2/delete HTTP/1.1[0m" 204 -
 14-Dec-21 18:33:49 - log - INFO - MODEL id = 2 class = tree trained = False
 14-Dec-21 18:33:49 - werkzeug - INFO - 172.21.0.1 - - [14/Dec/2021 18:33:49] "GET /api/ml_models/2 HTTP/1.1" 200 -
+14-Dec-21 18:51:39 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+14-Dec-21 18:51:39 - werkzeug - INFO -  * Running on http://172.22.0.5:8080/ (Press CTRL+C to quit)

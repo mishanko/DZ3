@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api:
-    build: .
+    image: mishanko/dz3_api:third_DZ
     volumes:
       - ./worker/models:/usr/src/app/worker/models
       - ./logs:/usr/src/app/logs
@@ -18,7 +18,7 @@ services:
     image: mongo:latest
 
   worker:
-    build: ./worker
+    image: mishanko/dz3_worker:third_DZ
     volumes:
       - ./worker/models:/usr/src/app/worker/models
     depends_on:
