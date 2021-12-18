@@ -1,505 +1,61 @@
-17-Dec-21 14:53:21 - werkzeug - WARNING -  * Running on all addresses.
+18-Dec-21 10:56:49 - werkzeug - WARNING -  * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 14:53:21 - werkzeug - INFO -  * Running on http://172.18.0.2:8080/ (Press CTRL+C to quit)
-17-Dec-21 15:08:16 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 15:08:16 - werkzeug - INFO -  * Running on http://172.18.0.6:8080/ (Press CTRL+C to quit)
-17-Dec-21 15:36:55 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 15:36:55 - werkzeug - INFO -  * Running on http://172.19.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 15:44:23 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 15:44:23 - werkzeug - INFO -  * Running on http://172.20.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 15:52:01 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 15:52:01 - werkzeug - INFO -  * Running on http://172.21.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 16:24:20 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 16:24:20 - werkzeug - INFO -  * Running on http://172.19.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 16:36:37 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 16:36:37 - werkzeug - INFO -  * Running on http://172.21.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 19:51:42 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 19:51:42 - werkzeug - INFO -  * Running on http://172.19.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 19:52:50 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:52:50] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:52:55 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:52:55] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:00 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:00] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:05 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:05] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:10 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:10] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:15 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:15] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:20 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:20] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:25 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:25] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:30 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:30] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:35 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:35] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:40 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:40] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:45 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:45] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:50 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:50] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:53:55 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:53:55] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:00 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:00] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:05 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:05] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:10 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:10] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:15 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:15] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:20 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:20] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:25 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:25] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:30 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:30] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:35 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:35] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:40 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:40] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:45 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:45] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:50 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:50] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:54:55 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:54:55] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:00 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:00] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:05 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:05] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:10 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:10] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:15 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:15] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:20 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:20] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:25 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:25] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:30 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:30] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:35 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:35] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:40 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:40] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:45 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:45] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:50 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:50] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:55:55 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:55:55] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:00 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:00] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:05 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:05] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:10 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:10] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:15 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:15] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:20 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:20] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:56:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:56:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:57:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:57:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:58:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:58:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 19:59:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 19:59:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:28 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:28] "GET / HTTP/1.1" 200 -
-17-Dec-21 20:00:28 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:28] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
-17-Dec-21 20:00:28 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:28] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
-17-Dec-21 20:00:28 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:28] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
-17-Dec-21 20:00:28 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:28] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
-17-Dec-21 20:00:29 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:29] "GET /swagger.json HTTP/1.1" 200 -
-17-Dec-21 20:00:29 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:29] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
-17-Dec-21 20:00:29 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:29] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
-17-Dec-21 20:00:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:30 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:30] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:32 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:00:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:00:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:00:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:27 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:01:27 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:01:27] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:01:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:30 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:01:30 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:01:30] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:01:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:38 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:01:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:01:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:01:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:13 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:02:13 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:13] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:02:14 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:02:14 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:14] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:02:14 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:02:14 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:14] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:02:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:20 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
-17-Dec-21 20:02:20 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:20] "GET /api/ml_models/1 HTTP/1.1" 200 -
-17-Dec-21 20:02:23 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
-17-Dec-21 20:02:23 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:23] "GET /api/ml_models/1 HTTP/1.1" 200 -
-17-Dec-21 20:02:24 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
-17-Dec-21 20:02:24 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:24] "GET /api/ml_models/1 HTTP/1.1" 200 -
-17-Dec-21 20:02:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:29 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:02:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:02:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:02:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:39 - log - INFO - Preparing to train...
-17-Dec-21 20:03:39 - log - INFO - Start training
-17-Dec-21 20:03:39 - log - INFO - Training finished!
-17-Dec-21 20:03:39 - log - INFO - Saving the model...
-17-Dec-21 20:03:39 - log - INFO - Model 'trained' status changed to True
-17-Dec-21 20:03:39 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 20:03:39] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-17-Dec-21 20:03:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:03:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:03:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:04:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:04:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:24 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:24] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:29 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:29] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:34 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:34] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:39 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:39] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:44 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:44] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:49 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:49] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:54 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:54] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:05:59 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:05:59] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:06:04 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:06:04] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:06:09 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:06:09] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:06:14 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:06:14] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:06:19 - werkzeug - INFO - 172.19.0.4 - - [17/Dec/2021 20:06:19] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:12:24 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 20:12:24 - werkzeug - INFO -  * Running on http://172.20.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 20:13:13 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:18 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:23 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:28 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:30 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:30] "[31m[1mPUT /api/ml_models HTTP/1.1[0m" 405 -
-17-Dec-21 20:13:30 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:30] "[31m[1mPUT /api/ml_models HTTP/1.1[0m" 405 -
-17-Dec-21 20:13:33 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:33 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:33 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:33] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:34 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:34 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:34] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:34 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:34 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:34] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:34 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:34 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:34] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:35 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:35 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:35] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:35 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:35 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:35] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:35 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:13:35 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:35] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:13:38 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:43 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:48 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:51 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:13:51] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:53 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:13:58 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:13:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:03 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:08 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:13 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:18 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:18 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:18 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:18] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:19 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:19 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:19] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:19 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:19 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:19] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:19 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:19 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:19] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:19 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:19 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:19] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:19 - log - INFO - Trained models = {1: {}, 2: {}}
-17-Dec-21 20:14:19 - werkzeug - INFO - 172.20.0.1 - - [17/Dec/2021 20:14:19] "GET /api/ml_models HTTP/1.1" 200 -
-17-Dec-21 20:14:23 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:28 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:33 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:38 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:43 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:48 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:53 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:14:58 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:14:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:03 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:08 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:13 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:18 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:23 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:28 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:33 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:38 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:43 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:48 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:53 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:15:58 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:15:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:03 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:08 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:13 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:18 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:23 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:28 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:33 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:38 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:43 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:48 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:53 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:16:58 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:16:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:17:03 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:17:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:17:08 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:17:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:17:13 - werkzeug - INFO - 172.20.0.3 - - [17/Dec/2021 20:17:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:22:52 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 20:22:52 - werkzeug - INFO -  * Running on http://172.21.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 20:23:23 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:28 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:33 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:38 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:43 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:44 - log - INFO - Preparing to train...
-17-Dec-21 20:23:44 - log - INFO - Start training
-17-Dec-21 20:23:44 - log - INFO - Training finished!
-17-Dec-21 20:23:44 - log - INFO - Saving the model...
-17-Dec-21 20:23:44 - log - INFO - Model 'trained' status changed to True
-17-Dec-21 20:23:44 - werkzeug - INFO - 172.21.0.1 - - [17/Dec/2021 20:23:44] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-17-Dec-21 20:23:48 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:53 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:23:58 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:23:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:03 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:08 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:12 - log - INFO - Preparing to train...
-17-Dec-21 20:24:12 - log - INFO - Start training
-17-Dec-21 20:24:12 - log - INFO - Training finished!
-17-Dec-21 20:24:12 - log - INFO - Saving the model...
-17-Dec-21 20:24:12 - log - INFO - Model 'trained' status changed to True
-17-Dec-21 20:24:12 - werkzeug - INFO - 172.21.0.1 - - [17/Dec/2021 20:24:12] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-17-Dec-21 20:24:13 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:18 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:23 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:28 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:33 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:38 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:43 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:48 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:53 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:24:58 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:24:58] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:03 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:03] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:08 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:08] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:13 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:18 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:23 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:23] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:28 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:28] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:33 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:33] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:38 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:38] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:43 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:43] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:48 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:48] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:53 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:53] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:25:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:25:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:13 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:13] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:18 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:18] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:26:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:26:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:27:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:27:58 - log - INFO - Preparing to train...
-17-Dec-21 20:27:58 - log - INFO - Start training
-17-Dec-21 20:27:58 - log - INFO - Training finished!
-17-Dec-21 20:27:58 - log - INFO - Saving the model...
-17-Dec-21 20:27:58 - log - INFO - Model 'trained' status changed to True
-17-Dec-21 20:27:58 - werkzeug - INFO - 172.21.0.1 - - [17/Dec/2021 20:27:58] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-17-Dec-21 20:28:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:28:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:28:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:29:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:29:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:30:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:30:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:31:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:31:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:32:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:32:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:22 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:22] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:27 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:27] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:32 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:32] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:37 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:37] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:42 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:42] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:47 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:47] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:52 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:52] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:33:57 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:33:57] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:34:02 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:34:02] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:34:07 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:34:07] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:34:12 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:34:12] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:34:17 - werkzeug - INFO - 172.21.0.4 - - [17/Dec/2021 20:34:17] "GET /metrics HTTP/1.1" 200 -
-17-Dec-21 20:39:51 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 20:39:51 - werkzeug - INFO -  * Running on http://172.22.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 20:48:15 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 20:48:16 - werkzeug - INFO -  * Running on http://172.23.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 21:01:30 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 21:01:30 - werkzeug - INFO -  * Running on http://172.18.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 21:11:03 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-17-Dec-21 21:11:03 - werkzeug - INFO -  * Running on http://172.19.0.7:8080/ (Press CTRL+C to quit)
-17-Dec-21 21:11:37 - log - INFO - Preparing to train...
-17-Dec-21 21:11:37 - log - INFO - Start training
-17-Dec-21 21:11:37 - log - INFO - Training finished!
-17-Dec-21 21:11:37 - log - INFO - Saving the model...
-17-Dec-21 21:11:37 - log - INFO - Model 'trained' status changed to True
-17-Dec-21 21:11:37 - werkzeug - INFO - 172.19.0.1 - - [17/Dec/2021 21:11:37] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-18-Dec-21 07:09:28 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-18-Dec-21 07:09:28 - werkzeug - INFO -  * Running on http://172.18.0.7:8080/ (Press CTRL+C to quit)
-18-Dec-21 07:09:46 - log - INFO - Preparing to train...
-18-Dec-21 07:09:46 - log - INFO - Start training
-18-Dec-21 07:09:46 - log - INFO - Training finished!
-18-Dec-21 07:09:46 - log - INFO - Saving the model...
-18-Dec-21 07:09:46 - log - INFO - Model 'trained' status changed to True
-18-Dec-21 07:09:46 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 07:09:46] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-18-Dec-21 07:18:09 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-18-Dec-21 07:18:09 - werkzeug - INFO -  * Running on http://172.19.0.7:8080/ (Press CTRL+C to quit)
-18-Dec-21 07:19:03 - log - INFO - Preparing to train...
-18-Dec-21 07:19:03 - log - INFO - Start training
-18-Dec-21 07:19:03 - log - INFO - Training finished!
-18-Dec-21 07:19:03 - log - INFO - Saving the model...
-18-Dec-21 07:19:03 - log - INFO - Model 'trained' status changed to True
-18-Dec-21 07:19:03 - werkzeug - INFO - 172.19.0.1 - - [18/Dec/2021 07:19:03] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
-18-Dec-21 07:24:34 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-18-Dec-21 07:24:34 - werkzeug - INFO -  * Running on http://172.20.0.7:8080/ (Press CTRL+C to quit)
-18-Dec-21 07:24:40 - log - INFO - Preparing to train...
-18-Dec-21 07:24:40 - log - INFO - Start training
-18-Dec-21 07:24:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0bd790>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:24:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0d1700>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:24:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0d13a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:25:10 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0c1a60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:25:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0c19a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:25:41 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+18-Dec-21 10:56:49 - werkzeug - INFO -  * Running on http://172.18.0.2:8080/ (Press CTRL+C to quit)
+18-Dec-21 10:56:54 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:56:54] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:56:59 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:56:59] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:02 - log - INFO - Trained models = {1: {}, 2: {}}
+18-Dec-21 10:57:02 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 10:57:02] "GET /api/ml_models HTTP/1.1" 200 -
+18-Dec-21 10:57:04 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:04] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:05 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
+18-Dec-21 10:57:05 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 10:57:05] "GET /api/ml_models/1 HTTP/1.1" 200 -
+18-Dec-21 10:57:07 - log - INFO - MODEL id = 2 CLASS = tree TRAINED = False
+18-Dec-21 10:57:07 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 10:57:07] "GET /api/ml_models/2 HTTP/1.1" 200 -
+18-Dec-21 10:57:09 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:09] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:14 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:14] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:15 - log - INFO - Preparing to train...
+18-Dec-21 10:57:15 - log - INFO - Start training
+18-Dec-21 10:57:15 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 10:57:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2554ae20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:57:19 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:19] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a254f7b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:57:24 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:24] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a255044c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:57:29 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:29] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:34 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:34] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:39 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:39] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a255041c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:57:44 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:44] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:49 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:49] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:54 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:54] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:57:59 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:57:59] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:04 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:04] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:09 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:09] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:14 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:14] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2550c0a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:58:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2444b460>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 10:58:19 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:19] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2444b6d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 10:58:24 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:24] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2444ba00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 10:58:29 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:29] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:34 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:34] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:39 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:39] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2444bcd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 10:58:44 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:44] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:49 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:49] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:54 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:54] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:59 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:58:59] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:58:59 - log - INFO - Preparing to train...
+18-Dec-21 10:58:59 - log - INFO - Start training
+18-Dec-21 10:58:59 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 10:58:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a244612e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:59:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a24461550>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:59:04 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:04] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:09 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:09] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:11 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a244617c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:59:14 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:14] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2444b940>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 10:59:15 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
     conn = connection.create_connection(
@@ -532,7 +88,7 @@ Traceback (most recent call last):
     conn = self._new_conn()
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7ff91f0c1ee0>: Failed to establish a new connection: [Errno 111] Connection refused
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a2550c1f0>: Failed to establish a new connection: [Errno 111] Connection refused
 
 During handling of the above exception, another exception occurred:
 
@@ -550,7 +106,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0c1ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2550c1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
@@ -565,42 +121,23 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0c1ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2550c1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/site-packages/prometheus_flask_exporter/__init__.py", line 656, in func
-    response = f(*args, **kwargs)
-  File "/usr/src/app/app/views.py", line 57, in put
-    model = self._train(id)
-  File "/usr/src/app/app/views.py", line 84, in _train
-    client.create_experiment('classification')
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 507, in create_experiment
-    return self._tracking_client.create_experiment(name, artifact_location, tags)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 182, in create_experiment
-    return self.store.create_experiment(
-  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 99, in create_experiment
-    response_proto = self._call_endpoint(CreateExperiment, req_body)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 285, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
   File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
     return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 226, in call_endpoint
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
     response = http_request(
   File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
     raise MlflowException("API request to %s failed with exception %s" % (url, e))
-mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/create failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff91f0c1ee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-18-Dec-21 07:25:42 - werkzeug - INFO - 172.20.0.1 - - [18/Dec/2021 07:25:42] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
-18-Dec-21 07:38:09 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-18-Dec-21 07:38:09 - werkzeug - INFO -  * Running on http://172.21.0.7:8080/ (Press CTRL+C to quit)
-18-Dec-21 07:38:17 - log - INFO - Preparing to train...
-18-Dec-21 07:38:17 - log - INFO - Start training
-18-Dec-21 07:38:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e1876d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:38:22 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e19a490>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:38:30 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e19a3a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:38:46 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e18c7c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:39:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e18c880>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:39:18 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a2550c1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
     conn = connection.create_connection(
@@ -633,7 +170,7 @@ Traceback (most recent call last):
     conn = self._new_conn()
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f661e18cd60>: Failed to establish a new connection: [Errno 111] Connection refused
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a244545b0>: Failed to establish a new connection: [Errno 111] Connection refused
 
 During handling of the above exception, another exception occurred:
 
@@ -651,7 +188,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e18cd60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a244545b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
@@ -666,57 +203,64 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e18cd60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a244545b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/prometheus_flask_exporter/__init__.py", line 656, in func
     response = f(*args, **kwargs)
-  File "/usr/src/app/app/views.py", line 57, in put
+  File "/usr/src/app/app/views.py", line 60, in put
     model = self._train(id)
-  File "/usr/src/app/app/views.py", line 84, in _train
-    client.create_experiment('classification')
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 507, in create_experiment
-    return self._tracking_client.create_experiment(name, artifact_location, tags)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 182, in create_experiment
-    return self.store.create_experiment(
-  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 99, in create_experiment
-    response_proto = self._call_endpoint(CreateExperiment, req_body)
+  File "/usr/src/app/app/views.py", line 86, in _train
+    mlflow.set_experiment("classification")
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 104, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 462, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 167, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 297, in get_experiment_by_name
+    for experiment in self.list_experiments(ViewType.ALL):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 77, in list_experiments
+    response_proto = self._call_endpoint(ListExperiments, req_body)
   File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
     return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 226, in call_endpoint
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
     response = http_request(
   File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
     raise MlflowException("API request to %s failed with exception %s" % (url, e))
-mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/create failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f661e18cd60>: Failed to establish a new connection: [Errno 111] Connection refused'))
-18-Dec-21 07:39:18 - werkzeug - INFO - 172.21.0.1 - - [18/Dec/2021 07:39:18] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
-18-Dec-21 07:39:24 - werkzeug - INFO - 172.21.0.1 - - [18/Dec/2021 07:39:24] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:23 - werkzeug - WARNING -  * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-18-Dec-21 07:47:23 - werkzeug - INFO -  * Running on http://172.22.0.7:8080/ (Press CTRL+C to quit)
-18-Dec-21 07:47:25 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:25] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:30 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:30] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:31 - log - INFO - Preparing to train...
-18-Dec-21 07:47:31 - log - INFO - Start training
-18-Dec-21 07:47:32 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a3718e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:47:35 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:35] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:36 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a371310>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:47:40 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:40] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:44 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a35ffd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:47:45 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:45] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:50 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:50] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:47:55 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:47:55] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:00 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a367100>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:48:00 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:00] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:05 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:05] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:10 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:10] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:15 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:15] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:20 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:20] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:25 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:25] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:30 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:30] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:32 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a367af0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
-18-Dec-21 07:48:32 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/list failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a244545b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+18-Dec-21 10:59:15 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 10:59:15] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
+18-Dec-21 10:59:19 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:19] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:24 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:24] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a24454760>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:59:29 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:29] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:34 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:34] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:39 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:39] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:44 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:44] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:49 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:49] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:54 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:54] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:59 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 10:59:59] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 10:59:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a254f7cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 10:59:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fa2e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:00:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fa4f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:00:04 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:04] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:09 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:09] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:11 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fa700>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:00:14 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:14] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:19 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:19] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:24 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:24] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fa940>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:00:29 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:29] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:34 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:34] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:39 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:39] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:43 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:43] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:48 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:48] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:53 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:53] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:58 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:00:58] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:00:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fa9d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:00:59 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
     conn = connection.create_connection(
@@ -749,7 +293,7 @@ Traceback (most recent call last):
     conn = self._new_conn()
   File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f768a371d30>: Failed to establish a new connection: [Errno 111] Connection refused
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a24461fa0>: Failed to establish a new connection: [Errno 111] Connection refused
 
 During handling of the above exception, another exception occurred:
 
@@ -767,7 +311,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a371d30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a24461fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
@@ -782,49 +326,621 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a371d30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a24461fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 285, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
+    response = http_request(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
+    raise MlflowException("API request to %s failed with exception %s" % (url, e))
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a24461fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3a242fad00>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fad00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 134, in http_request
+    return _get_http_response_with_retries(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 74, in _get_http_response_with_retries
+    response = http.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fad00>: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/usr/local/lib/python3.8/site-packages/prometheus_flask_exporter/__init__.py", line 656, in func
     response = f(*args, **kwargs)
-  File "/usr/src/app/app/views.py", line 57, in put
+  File "/usr/src/app/app/views.py", line 60, in put
     model = self._train(id)
-  File "/usr/src/app/app/views.py", line 84, in _train
-    client.create_experiment('classification')
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 507, in create_experiment
-    return self._tracking_client.create_experiment(name, artifact_location, tags)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 182, in create_experiment
-    return self.store.create_experiment(
-  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 99, in create_experiment
-    response_proto = self._call_endpoint(CreateExperiment, req_body)
+  File "/usr/src/app/app/views.py", line 86, in _train
+    mlflow.set_experiment("classification")
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 104, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 462, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 167, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 297, in get_experiment_by_name
+    for experiment in self.list_experiments(ViewType.ALL):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 77, in list_experiments
+    response_proto = self._call_endpoint(ListExperiments, req_body)
   File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
     return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
-  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 226, in call_endpoint
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
     response = http_request(
   File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
     raise MlflowException("API request to %s failed with exception %s" % (url, e))
-mlflow.exceptions.MlflowException: API request to http://localhost:5000/api/2.0/mlflow/experiments/create failed with exception HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f768a371d30>: Failed to establish a new connection: [Errno 111] Connection refused'))
-18-Dec-21 07:48:32 - werkzeug - INFO - 172.22.0.1 - - [18/Dec/2021 07:48:32] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
-18-Dec-21 07:48:35 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:35] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:40 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:40] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:45 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:45] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:50 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:50] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:48:55 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:48:55] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:00 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:00] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:05 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:05] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:10 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:10] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:15 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:15] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:20 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:20] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:25 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:25] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:30 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:30] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:35 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:35] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:40 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:40] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:45 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:45] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:50 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:50] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:49:55 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:49:55] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:50:00 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:50:00] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:50:05 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:50:05] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:50:10 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:50:10] "GET /metrics HTTP/1.1" 200 -
-18-Dec-21 07:50:15 - werkzeug - INFO - 172.22.0.4 - - [18/Dec/2021 07:50:15] "GET /metrics HTTP/1.1" 200 -
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/list failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a242fad00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+18-Dec-21 11:00:59 - werkzeug - INFO - 172.18.0.1 - - [18/Dec/2021 11:00:59] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
+18-Dec-21 11:01:03 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:03] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:08 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:08] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:13 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:13] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:18 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:18] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:23 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:23] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:28 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:28] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:33 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:33] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:01:38 - werkzeug - INFO - 172.18.0.4 - - [18/Dec/2021 11:01:38] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:04:37 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+18-Dec-21 11:04:37 - werkzeug - INFO -  * Running on http://172.19.0.4:8080/ (Press CTRL+C to quit)
+18-Dec-21 11:04:42 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:04:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:04:47 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:04:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:04:52 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:04:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:04:57 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:04:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:02 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:07 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:12 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:17 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:22 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:27 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:32 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:37 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:42 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:05:47 - werkzeug - INFO - 172.19.0.3 - - [18/Dec/2021 11:05:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:08:41 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+18-Dec-21 11:08:41 - werkzeug - INFO -  * Running on http://172.19.0.2:8080/ (Press CTRL+C to quit)
+18-Dec-21 11:08:47 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:08:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:08:52 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:08:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:08:57 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:08:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:02 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:07 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:12 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:17 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:22 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:27 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:32 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:37 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:42 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:47 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:52 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:09:57 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:09:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:02 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:07 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:12 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:17 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:22 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:27 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:32 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:37 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:10:42 - werkzeug - INFO - 172.19.0.4 - - [18/Dec/2021 11:10:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:14 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+18-Dec-21 11:14:14 - werkzeug - INFO -  * Running on http://172.19.0.3:8080/ (Press CTRL+C to quit)
+18-Dec-21 11:14:17 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:22 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:27 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:32 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:37 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:42 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:47 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:52 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:14:57 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:14:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:02 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:07 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:12 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:17 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:22 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:27 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:32 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:34 - log - INFO - Preparing to train...
+18-Dec-21 11:15:34 - log - INFO - Start training
+18-Dec-21 11:15:34 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:15:34 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea6148e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:15:37 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:38 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea6149d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:15:42 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:46 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea614580>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:15:47 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:52 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:15:57 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:15:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:02 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea61dd60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:16:07 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:12 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:17 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:22 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:27 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:32 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:34 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea61dac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:16:34 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955c280>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:16:37 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:38 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955c4f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:16:42 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:46 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955c820>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:16:47 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:52 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:16:57 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:16:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:02 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955cb20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:17:07 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:12 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:17 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:22 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:27 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:32 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:32] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:34 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955cd60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:17:34 - app - ERROR - Exception on /api/ml_models/1/train [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f81ea66efd0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea66efd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 134, in http_request
+    return _get_http_response_with_retries(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 74, in _get_http_response_with_retries
+    response = http.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea66efd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 285, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
+    response = http_request(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
+    raise MlflowException("API request to %s failed with exception %s" % (url, e))
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81ea66efd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f81e955cb80>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955cb80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 134, in http_request
+    return _get_http_response_with_retries(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 74, in _get_http_response_with_retries
+    response = http.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955cb80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/prometheus_flask_exporter/__init__.py", line 656, in func
+    response = f(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 60, in put
+    model = self._train(id)
+  File "/usr/src/app/app/views.py", line 86, in _train
+    mlflow.set_experiment("classification")
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 104, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 462, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 167, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 297, in get_experiment_by_name
+    for experiment in self.list_experiments(ViewType.ALL):
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 77, in list_experiments
+    response_proto = self._call_endpoint(ListExperiments, req_body)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 222, in call_endpoint
+    response = http_request(
+  File "/usr/local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 146, in http_request
+    raise MlflowException("API request to %s failed with exception %s" % (url, e))
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:5000/api/2.0/mlflow/experiments/list failed with exception HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /api/2.0/mlflow/experiments/list?view_type=ALL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f81e955cb80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+18-Dec-21 11:17:34 - werkzeug - INFO - 172.19.0.1 - - [18/Dec/2021 11:17:34] "[35m[1mPUT /api/ml_models/1/train HTTP/1.1[0m" 500 -
+18-Dec-21 11:17:37 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:37] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:42 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:42] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:47 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:47] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:52 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:52] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:17:57 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:17:57] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:02 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:02] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:07 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:07] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:12 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:12] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:17 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:17] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:22 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:22] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:18:27 - werkzeug - INFO - 172.19.0.2 - - [18/Dec/2021 11:18:27] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 11:25:29 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:25:29 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c52430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:25:33 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c3dd90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:25:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c478e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:25:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c47910>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:26:29 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c47fa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:26:29 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4bfa4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:26:33 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4bfa730>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:26:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4bfa9a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:26:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c52880>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:27:29 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f45e4c52b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:27:33 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:27:33 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9363e234c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:27:37 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9363e231c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:27:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9363e18a00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:31:50 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:31:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a66585e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:31:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6644eb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:32:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a664da60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:32:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a664da30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:32:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a664df40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:32:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6600490>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:32:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6600700>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:33:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6600970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:33:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6658850>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:33:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5a6658b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:33:53 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:33:53 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc252064c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:33:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc25206190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:34:05 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251fba60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:34:21 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251fb760>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:34:53 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251fbe50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:34:53 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251aaa30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:34:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251aaca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:35:05 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251aaf10>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:35:21 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251b1190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:35:53 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc251b13d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:35:56 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:35:56 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e24d4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:36:00 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e24d1c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:36:08 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e242a00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:36:24 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e242970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:36:56 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e242df0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:36:56 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e1f1ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:37:00 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa46e1f1d30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:40:37 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:40:37 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c88a075e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:40:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889f3eb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:40:49 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889fca60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:41:05 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889fca30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:41:37 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889fcf40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:41:37 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889af490>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:41:41 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889af700>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:41:49 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c889af970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:42:05 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c88a07850>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:48:03 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:48:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a9b550>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:48:07 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a87e50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:48:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a907c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:48:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a90a30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:49:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a90e20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:49:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a43460>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:49:07 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a436d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:49:15 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a43940>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:49:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a9b820>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:50:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd70a9bb20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:50:07 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:50:07 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04a7c204c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:50:11 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04a7c20190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:50:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04a7c16c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:50:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f04a7c16760>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:53:19 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:53:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db325430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:53:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db310d90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:53:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db31a8e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:53:47 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db31a910>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:54:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db31afa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:54:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db2cd4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:54:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db2cd730>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:54:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db2cd9a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:54:47 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db325880>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:55:19 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc8db325b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:55:23 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:55:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2776903340>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:55:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2776903040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:55:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768f8970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:55:51 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768f8ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:56:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768f8cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:56:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768a7a90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:56:27 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768a7d00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:56:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768a7f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:56:51 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768ae1f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:57:23 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f27768ae430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:57:26 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:57:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626f5880>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:57:30 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626f51c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:57:38 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626eb700>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:57:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626eba60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:58:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626ebb80>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:58:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626999d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:58:30 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d62699c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:58:38 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d62699eb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:58:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626a0130>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:59:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5d626a0370>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 11:59:31 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 11:59:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de6f340>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:59:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de6f040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:59:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de64970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 11:59:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de64ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:00:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de64cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:00:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de13a90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:00:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de13d00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:00:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de13f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:00:59 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de1a1f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:01:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff0de1a430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:01:35 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:01:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0da4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:01:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0da190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:01:47 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0cfa60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:02:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0cf760>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:02:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0cfe50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:02:35 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f07ea30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:02:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f07eca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:02:47 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f07ef10>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:03:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f085190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:03:36 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b0f0853d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:03:39 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:03:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdc06220>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:03:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdc061f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:03:51 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbfb910>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:04:07 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbfb850>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:04:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbfbcd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:04:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbaaa60>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:04:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbaacd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:04:51 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbaaf40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:05:07 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbb11c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:05:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24cdbb1400>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:05:42 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:05:42 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2dc64c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:05:46 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2dc61c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:05:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2dbba00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:06:10 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2dbb970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:06:42 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2dbbdf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:06:42 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2d6aac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:06:46 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2d6ad30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:06:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2d6afa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:07:10 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2d70220>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:07:42 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24f2d70460>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:07:45 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:07:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec618a340>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:07:49 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec618a040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:07:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec617f970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:08:13 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec617fac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:08:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec617fcd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:08:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec612ea90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:08:49 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec612ed00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:08:57 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec612ef70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:09:13 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec61351f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:09:45 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdec6135430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:09:50 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:09:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c883bf340>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:09:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c883bf040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:10:02 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c883b4970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:10:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c883b4ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:10:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c883b4cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:10:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c88363a90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:10:54 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c88363d00>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:11:03 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c88363f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:11:18 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c8836a1f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:11:50 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7c8836a430>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/list?view_type=ALL
+18-Dec-21 12:11:56 - log - INFO - http://0.0.0.0:5000/
+18-Dec-21 12:11:56 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b0f73340>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:12:00 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b0f73040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:12:08 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f80b0f68970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:15:16 - log - INFO - http://mlflow:5000/
+18-Dec-21 12:15:16 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7d2cd5550>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:15:20 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7d2cc1e80>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+18-Dec-21 12:15:23 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+18-Dec-21 12:15:23 - werkzeug - INFO -  * Running on http://172.20.0.3:8080/ (Press CTRL+C to quit)
+18-Dec-21 12:15:26 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:26] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:31 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:31] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:36 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:36] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:41 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:41] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:44 - log - INFO - Trained models = {1: {}, 2: {}}
+18-Dec-21 12:15:44 - werkzeug - INFO - 172.20.0.1 - - [18/Dec/2021 12:15:44] "GET /api/ml_models HTTP/1.1" 200 -
+18-Dec-21 12:15:46 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:46] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:47 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
+18-Dec-21 12:15:47 - werkzeug - INFO - 172.20.0.1 - - [18/Dec/2021 12:15:47] "GET /api/ml_models/1 HTTP/1.1" 200 -
+18-Dec-21 12:15:48 - log - INFO - MODEL id = 2 CLASS = tree TRAINED = False
+18-Dec-21 12:15:48 - werkzeug - INFO - 172.20.0.1 - - [18/Dec/2021 12:15:48] "GET /api/ml_models/2 HTTP/1.1" 200 -
+18-Dec-21 12:15:51 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:51] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:56 - log - INFO - Preparing to train...
+18-Dec-21 12:15:56 - log - INFO - Start training
+18-Dec-21 12:15:56 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:15:56] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:15:58 - log - INFO - Training finished!
+18-Dec-21 12:15:58 - log - INFO - Saving the model...
+18-Dec-21 12:15:58 - log - INFO - Model 'trained' status changed to True
+18-Dec-21 12:15:58 - werkzeug - INFO - 172.20.0.1 - - [18/Dec/2021 12:15:58] "PUT /api/ml_models/1/train HTTP/1.1" 200 -
+18-Dec-21 12:16:01 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:01] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:06 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:06] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:11 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:11] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:16 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:16] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:21 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:21] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:26 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:26] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:31 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:31] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:36 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:36] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:41 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:41] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:46 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:46] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:51 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:51] "GET /metrics HTTP/1.1" 200 -
+18-Dec-21 12:16:56 - werkzeug - INFO - 172.20.0.2 - - [18/Dec/2021 12:16:56] "GET /metrics HTTP/1.1" 200 -

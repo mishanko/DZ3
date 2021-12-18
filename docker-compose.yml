@@ -4,28 +4,14 @@ services:
   api:
     build: .
     volumes:
-      - ./worker/models:/usr/src/app/worker/models
-      - ./worker/mlflow:/mlflow
+      - ./app/models:/usr/src/app/models
+      - ./app/mlflow/mlflow.db:/usr/src/app/mlflow/mlflow.db
+      - ./app/mlflow/mlartifacts:/usr/src/app/mlflow/mlartifacts
       - ./logs:/usr/src/app/logs
     ports:
       - 8080:8080
-      - 5000:5000
-    restart: always
-    depends_on:
-      - redis
-      - worker
-    links:
-      - mlflow
 
-  worker:
-    build: ./worker 
-    volumes:
-      - ./worker/models:/usr/src/app/worker/models
-    depends_on:
-      - redis
-  
-  redis:
-    image: redis
+    restart: always
 
   prometheus:
     image: prom/prometheus:latest
@@ -45,8 +31,11 @@ services:
 
   mlflow:
     image: atcommons/mlflow-server
-    volumes:
-      - ./worker/mlflow:/mlflow
+    build: ./app/mlflow/.
+    ports:
+      - 5000:5000
     environment:
-      BACKEND_URI: sqlite:////mlflow/mlflow.db
-      ARTIFACT_ROOT: /mlflow/artifacts
+      BACKEND_URI: sqlite:///mlflow.db
+      ARTIFACT_ROOT: /artifacts
+    volumes:
+      - ./app/mlflow:/usr/src/app/mlflow

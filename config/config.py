@@ -2,7 +2,5 @@ import os
 
 HOST = os.environ['HOST']
 PORT = os.environ["PORT"]
-CELERY_BROKER = os.environ["CELERY_BROKER"]
-CELERY_BACKEND = os.environ["CELERY_BACKEND"]
-
-
+MLFLOW_HOST = os.environ['MLFLOW_HOST']
+MLFLOW_PORT = os.environ["MLFLOW_PORT"]

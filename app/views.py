@@ -1,6 +1,7 @@
-from app import api, models_dao, celery, metrics
+from app import api, models_dao, metrics
 from joblib import dump, load
 from log import log
+from config.config import MLFLOW_HOST, MLFLOW_PORT
 
 from typing import Tuple, Union, NoReturn
 from flask_restx import Resource
@@ -8,8 +9,15 @@ from sklearn.linear_model import LogisticRegression as LR
 from sklearn.tree import DecisionTreeClassifier as DT
 import numpy as np
 import os
+from mlflow.models.signature import infer_signature
+import mlflow.sklearn
+import mlflow
 
-
+mlflow.set_registry_uri("http://mlflow:{MLFLOW_PORT}/")
+mlflow.set_tracking_uri(f"http://mlflow:{MLFLOW_PORT}/")
+tracking_uri = mlflow.get_tracking_uri()
+log.info(tracking_uri)
+mlflow.set_experiment("classification")
 # * Словарь моделей, доступных для обучения
 models = {
     1:LR,
@@ -75,16 +83,15 @@ class MLModelTrain(Resource):
             y = df['y']
             log.info("Start training",)
             
-            path = f'./worker/models/model_{models_dao.num}.joblib'
-            dump(model, path)
-
-            import mlflow
-            mlflow.set_tracking_uri('http://localhost:5000')
-            client = mlflow.tracking.MlflowClient()
-            client.create_experiment('classification')
-            # посылаем в контейнер для обучения
-            celery.send_task("train", args=[X, y, path])
-            
+            path = f'./app/models/model_{models_dao.num}.joblib'
+            with mlflow.start_run(run_name='classification_task'):
+                clf = model
+                clf.fit(X, y)
+                mlflow.log_params(clf.get_params())
+                mlflow.log_metrics({"train_acc":clf.score(X, y)})
+                signature = infer_signature(np.array(X), clf.predict(X))
+                mlflow.sklearn.log_model(clf, 'skl_model', signature=signature, registered_model_name='trained_model')
+                dump(clf, path)
             log.info("Training finished!")
             return path
         except KeyError or AttributeError:
@@ -112,7 +119,7 @@ class MLModelPredict(Resource):
         try:
             df = api.payload
             number = df['num']
-            path = f'./worker/models/model_{number}.joblib'
+            path = f'./app/models/model_{number}.joblib'
             model = load(path)
             X_new = np.fromiter(df['X'], dtype=float)
             prediction = {'Prediction': str(model.predict([X_new]))}
@@ -132,7 +139,7 @@ class MLModelDelete(Resource):
             df = api.payload
             num = df['num']
             models_dao.delete(id, num)
-            path = f'./worker/models/model_{num}.joblib'
+            path = f'./app/models/model_{num}.joblib'
             os.system(f"rm -rf {path}")
             log.info(f"Model {num} deleted")
             return '', 204
@@ -161,12 +168,22 @@ class MLModelRetrain(MLModelTrain):
             self.num = str(df['num'])
             log.info("Start retraining")
             
-            path = f'./worker/models/model_{self.num}.joblib'
+            path = f'./app/models/model_{self.num}.joblib'
             dump(model, path)
 
             # посылаем в контейнер для обучения
-            celery.send_task("train", args=[X, y, path])
-            
+            # mlflow.set_tracking_uri(f"http://{MLFLOW_HOST}:{MLFLOW_PORT}/")
+            tracking_uri = mlflow.get_tracking_uri()
+            log.info(tracking_uri)
+            mlflow.set_experiment("classification")
+            with mlflow.start_run(run_name='classification_task'):
+                clf = model
+                clf.fit(X, y)
+                mlflow.log_params(clf.get_params())
+                mlflow.log_metrics({"train_acc":clf.score(X, y)})
+                signature = infer_signature(X, clf.predict(X))
+                mlflow.sklearn.log_model(clf, 'skl_model', signature=signature, registered_model_name='trained_model')
+                dump(clf, path)   
             log.info("Retraining finished!")
             return path
         except KeyError:
