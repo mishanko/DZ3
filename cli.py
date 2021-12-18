@@ -1,5 +1,5 @@
 ## для команд для шела
-from config import HOST, PORT
+from config.config import HOST, PORT
 from app import application
 import sys
 import os

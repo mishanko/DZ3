@@ -7,9 +7,12 @@ ENV LC_ALL en_US.utf-8
 ENV LANG en_US.etf-8
 ENV CELERY_BROKER redis://redis:6379/0
 ENV CELERY_BACKEND redis://redis:6379/0
+ENV MLFLOW_HOST localhost
+ENV MLFLOW_PORT 5000
 
 COPY . /usr/src/app/worker
 WORKDIR /usr/src/app/worker
 
 RUN pip3 install -r requirements.txt
+
 ENTRYPOINT celery -A tasks worker --loglevel=info

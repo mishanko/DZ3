@@ -1,15 +1,9 @@
 from flask import Flask
 from flask_restx import Api
 from .ml_models import MLModelsDAO
-from .database import Model
-from pymongo import MongoClient
 from celery import Celery
 from prometheus_flask_exporter import PrometheusMetrics
-from config import CELERY_BACKEND, CELERY_BROKER, MONGODB, MONGO_PORT
-
-client = MongoClient(MONGODB, int(MONGO_PORT))
-db = client.models
-db_model = Model(db)
+from config.config import CELERY_BACKEND, CELERY_BROKER
 
 celery = Celery("train", broker=CELERY_BROKER, backend=CELERY_BACKEND)
 

@@ -11,4 +11,4 @@ scrape_configs:
     scrape_interval: 5s
 
     static_configs:
-      - targets: ['172.18.0.7:8080']  # TODO вот ту не работает с app
+      - targets: ['172.22.0.7:8080']  # TODO вот тут не работает с app

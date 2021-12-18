@@ -5,17 +5,17 @@ services:
     build: .
     volumes:
       - ./worker/models:/usr/src/app/worker/models
+      - ./worker/mlflow:/mlflow
       - ./logs:/usr/src/app/logs
     ports:
       - 8080:8080
+      - 5000:5000
     restart: always
     depends_on:
-      - mongodb
       - redis
       - worker
-
-  mongodb:
-    image: mongo:latest
+    links:
+      - mlflow
 
   worker:
     build: ./worker 
@@ -32,14 +32,21 @@ services:
     ports:
       - 9090:9090
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
     
-
   grafana:
     image: grafana/grafana:latest
     ports:
       - 3000:3000
     volumes:
-      - ./grafana.ini:/etc/grafana/grafana.ini
+      - ./config/grafana.ini:/etc/grafana/grafana.ini
     links:
       - prometheus
+
+  mlflow:
+    image: atcommons/mlflow-server
+    volumes:
+      - ./worker/mlflow:/mlflow
+    environment:
+      BACKEND_URI: sqlite:////mlflow/mlflow.db
+      ARTIFACT_ROOT: /mlflow/artifacts
