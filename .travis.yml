@@ -1,12 +1,4 @@
-os: linux
-
-language: python
-
-python:
-  - 3.8
-
-install:
-  - pip install -r requirements-dev.txt
+sudo: required
 
 services:
   - docker
@@ -22,12 +14,17 @@ before_install:
   - sudo apt-get update
   - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
 
-script:
-  - docker-compose up
+before_script:
+  - docker-compose up -d
+  - docker ps
   - docker tag dz3_api:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
-  - docker exec -it mishanko/pet-project:api_3 bash
-  - python test.py
+
+script:
+  - docker exec mishanko/pet-project:api_3 python test.py
+
+after_script:
+  - docker-compose down
 
 branches:
   only:
