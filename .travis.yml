@@ -22,7 +22,7 @@ before_script:
   - docker push mishanko/pet-project:api_3
 
 script:
-  - docker exec dz3_api_1 python test.py
+  - docker exec dz3-api-1 python test.py
 
 after_script:
   - docker-compose down
