@@ -24,7 +24,7 @@ before_install:
 
 script:
   - docker-compose build 
-  - docker tag dz3_worker:latest mishanko/pet-project:api_3
+  - docker tag dz3_api:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
   - python test.py
 
