@@ -15,3 +15,4 @@ mlartifacts/1/9a9ca72272764d8daa436e12a75f6532/artifacts/skl_model/model.pkl
 mlartifacts/1/9a9ca72272764d8daa436e12a75f6532/artifacts/skl_model/requirements.txt
 mlartifacts/1/ed043b250c57488a8f20c07a38992019/artifacts/skl_model/requirements.txt
 __pycache__
+mlartifacts
