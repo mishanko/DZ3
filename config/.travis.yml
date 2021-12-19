@@ -1,0 +1,32 @@
+os: linux
+
+language: python
+
+python:
+  - 3.6
+  - 3.7
+  - 3.8
+
+install:
+  - pip install -r ../requirements-dev.txt
+
+env:
+  - DOCKER_COMPOSE_VERSION=1.4.2
+
+before_install:
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin 
+  - docker-compose build
+  - docker tag dz3_worker:latest mishanko/pet-project:api_3
+  - docker push mishanko/pet-project:api_3
+  - docker-compose up
+
+scripts:
+  - python ../test.py
+
+branches:
+  only:
+    - master
+
