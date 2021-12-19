@@ -18,7 +18,7 @@ before_script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_LOGIN" --password-stdin
   - docker-compose up -d
   - docker ps
-  - docker tag dz3_api:latest mishanko/pet-project:api_3
+  - docker tag mishanko/pet-project:api_3 mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
 
 script:
