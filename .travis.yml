@@ -26,6 +26,7 @@ script:
   - docker-compose build 
   - docker tag dz3_api:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
+  - docker exec -it mishanko/pet-project:api_3 bash
   - python test.py
 
 branches:
