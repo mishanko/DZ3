@@ -12,10 +12,11 @@ env:
   - DOCKER_COMPOSE_VERSION=3.8
 
 before_install:
-  - sudo rm -rf /usr/local/bin/docker-compose
+  - rm -rf /usr/local/bin/docker-compose
   - sudo curl -L "https://github.com/docker/compose/releases/download/{DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
   - chmod +x /usr/local/bin/docker-compose
-  - docker-compose build
+  - docker-compose build 
+  
   - docker tag dz3_worker:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
 
