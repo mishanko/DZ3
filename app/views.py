@@ -1,7 +1,7 @@
 from app import api, models_dao, metrics
 from joblib import dump, load
 from log import log
-from config.config import MLFLOW_HOST, MLFLOW_PORT
+from config.config import MLFLOW_PORT
 
 from typing import Tuple, Union, NoReturn
 from flask_restx import Resource
@@ -13,11 +13,12 @@ from mlflow.models.signature import infer_signature
 import mlflow.sklearn
 import mlflow
 
-mlflow.set_registry_uri("http://mlflow:{MLFLOW_PORT}/")
+mlflow.set_registry_uri(f"http://mlflow:{MLFLOW_PORT}/")
 mlflow.set_tracking_uri(f"http://mlflow:{MLFLOW_PORT}/")
 tracking_uri = mlflow.get_tracking_uri()
 log.info(tracking_uri)
 mlflow.set_experiment("classification")
+
 # * Словарь моделей, доступных для обучения
 models = {
     1:LR,
@@ -62,8 +63,8 @@ class MLModelTrain(Resource):
     
     @metrics.counter(f'cnt_trains', 'Number_of_puts', labels={'status': lambda resp:resp.status_code})
     def put(self, id:int) -> Tuple[dict, int]:
-        model = self._train(id)
-        model = load(model)
+        path = self._train(id)
+        model = load(path)
         self._save_model(model, id)
         data = {'trained': True} 
         log.info("Model 'trained' status changed to True")
@@ -90,8 +91,9 @@ class MLModelTrain(Resource):
                 mlflow.log_params(clf.get_params())
                 mlflow.log_metrics({"train_acc":clf.score(X, y)})
                 signature = infer_signature(np.array(X), clf.predict(X))
-                mlflow.sklearn.log_model(clf, 'skl_model', signature=signature, registered_model_name='trained_model')
                 dump(clf, path)
+                mlflow.sklearn.log_model(clf, 'skl_model', signature=signature, registered_model_name='trained_model')
+                
             log.info("Training finished!")
             return path
         except KeyError or AttributeError:
@@ -153,13 +155,13 @@ class MLModelRetrain(MLModelTrain):
     """Класс для переобучения модели
     """
 
-    @metrics.counter(f'cnt_retrains', 'Number_of_puts', labels={'status': lambda resp:resp.status_code})
     def _train(self, id:int) -> Union[DT, LR]:
-        log.info("INFO: Prepating to retrain...",)
+        log.info("Prepating to retrain...",)
         try: 
             df = api.payload
             if 'H' in df.keys():
                 hypers = df['H']
+                log.info(f"Model's hyperparameters: {hypers}")
                 model = models[id](**hypers)
             else:
                 model = models[id]()
@@ -167,23 +169,22 @@ class MLModelRetrain(MLModelTrain):
             y = df['y']
             self.num = str(df['num'])
             log.info("Start retraining")
+            log.info(self.num)
+            log.info(df)
             
             path = f'./app/models/model_{self.num}.joblib'
-            dump(model, path)
+            # dump(model, path)
 
-            # посылаем в контейнер для обучения
-            # mlflow.set_tracking_uri(f"http://{MLFLOW_HOST}:{MLFLOW_PORT}/")
-            tracking_uri = mlflow.get_tracking_uri()
-            log.info(tracking_uri)
             mlflow.set_experiment("classification")
             with mlflow.start_run(run_name='classification_task'):
                 clf = model
                 clf.fit(X, y)
                 mlflow.log_params(clf.get_params())
                 mlflow.log_metrics({"train_acc":clf.score(X, y)})
-                signature = infer_signature(X, clf.predict(X))
-                mlflow.sklearn.log_model(clf, 'skl_model', signature=signature, registered_model_name='trained_model')
+                signature = infer_signature(np.array(X), clf.predict(X))
                 dump(clf, path)   
+                mlflow.sklearn.log_model(clf, 'skl_model_', signature=signature, registered_model_name='trained_model_')
+            log.info(path)
             log.info("Retraining finished!")
             return path
         except KeyError:
