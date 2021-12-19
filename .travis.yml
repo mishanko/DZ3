@@ -9,11 +9,13 @@ env:
   - DOCKER_COMPOSE_VERSION=2.2.2
 
 before_install:
+  - sudo rm /usr/local/bin/docker-compose
   - curl -L https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-`uname -s`-`uname -m` > docker-compose
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
 
 before_script:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_LOGIN" --password-stdin
   - docker-compose up -d
   - docker ps
   - docker tag dz3_api:latest mishanko/pet-project:api_3
