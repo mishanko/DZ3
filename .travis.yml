@@ -1,10 +1,12 @@
 sudo: required
 
+os: osx
+
 services:
   - docker
 
 env:
-  - DOCKER_COMPOSE_VERSION=1.23.2
+  - DOCKER_COMPOSE_VERSION=2.2.2
 
 before_install:
   - sudo rm /usr/local/bin/docker-compose
