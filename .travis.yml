@@ -4,24 +4,22 @@ services:
   - docker
 
 env:
-  - DOCKER_COMPOSE_VERSION=3.8
+  - DOCKER_COMPOSE_VERSION=2.2.2
 
 before_install:
   - sudo rm /usr/local/bin/docker-compose
   - curl -L https://github.com/docker/compose/releases/download/$v{DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
-  - sudo apt-get update
-  - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
 
 before_script:
-  - docker-compose up -d
+  - docker-compose up -d --build
   - docker ps
   - docker tag dz3_api:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
 
 script:
-  - docker exec mishanko/pet-project:api_3 python test.py
+  - docker exec dz3_api_1 python test.py
 
 after_script:
   - docker-compose down

@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   api:
-    image: mishanko/pet-peoject:api_3
+    # image: mishanko/pet-project:api_3
+    build: .
     volumes:
       - ./app/models:/usr/src/app/app/models
       - ./app/mlflow/mlflow.db:/usr/src/app/mlflow/mlflow.db

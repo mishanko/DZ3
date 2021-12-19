@@ -465,3 +465,72 @@ TypeError: expected str, bytes or os.PathLike object, not Response
 19-Dec-21 19:57:48 - werkzeug - INFO - 172.23.0.4 - - [19/Dec/2021 19:57:48] "GET /metrics HTTP/1.1" 200 -
 19-Dec-21 19:57:53 - werkzeug - INFO - 172.23.0.4 - - [19/Dec/2021 19:57:53] "GET /metrics HTTP/1.1" 200 -
 19-Dec-21 19:57:58 - werkzeug - INFO - 172.23.0.4 - - [19/Dec/2021 19:57:58] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:13 - log - INFO - http://mlflow:5000/
+19-Dec-21 22:49:13 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4484d24040>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+19-Dec-21 22:49:17 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4484d0fdc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+19-Dec-21 22:49:20 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+19-Dec-21 22:49:20 - werkzeug - INFO -  * Running on http://172.24.0.3:8080/ (Press CTRL+C to quit)
+19-Dec-21 22:49:24 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:24] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:29 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:29] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:34 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:34] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:39 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:39] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:44 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:44] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:49 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:49] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:54 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:54] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:49:59 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:49:59] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:04 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:04] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:09 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:09] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:14 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:14] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:19 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:19] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:24 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:24] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:29 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:29] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:34 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:34] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:39 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:39] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:44 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:44] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:49 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:49] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:54 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:54] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:50:56 - log - INFO - http://mlflow:5000/
+19-Dec-21 22:50:56 - log - INFO - Trained models = {1: {}, 2: {}}
+19-Dec-21 22:50:56 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
+19-Dec-21 22:50:56 - log - INFO - MODEL id = 2 CLASS = tree TRAINED = False
+19-Dec-21 22:50:56 - log - INFO - Preparing to train...
+19-Dec-21 22:50:56 - log - INFO - Start training
+19-Dec-21 22:50:59 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:50:59] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:03 - log - INFO - Training finished!
+19-Dec-21 22:51:03 - log - INFO - Saving the model...
+19-Dec-21 22:51:03 - log - INFO - Model 'trained' status changed to True
+19-Dec-21 22:51:03 - log - INFO - Preparing to train...
+19-Dec-21 22:51:03 - log - INFO - Start training
+19-Dec-21 22:51:04 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:04] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:07 - log - INFO - Training finished!
+19-Dec-21 22:51:07 - log - INFO - Saving the model...
+19-Dec-21 22:51:07 - log - INFO - Model 'trained' status changed to True
+19-Dec-21 22:51:07 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 1
+19-Dec-21 22:51:07 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 2
+19-Dec-21 22:51:07 - log - INFO - Prepating to retrain...
+19-Dec-21 22:51:07 - log - INFO - Start retraining
+19-Dec-21 22:51:07 - log - INFO - 0
+19-Dec-21 22:51:07 - log - INFO - {'X': [[1, 2, 3], [3, 2, 1]], 'num': '0', 'y': [0, 1]}
+19-Dec-21 22:51:09 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:09] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:11 - log - INFO - ./app/models/model_0.joblib
+19-Dec-21 22:51:11 - log - INFO - Retraining finished!
+19-Dec-21 22:51:11 - app - ERROR - Exception on /api/ml_models/1/retrain [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/prometheus_flask_exporter/__init__.py", line 656, in func
+    response = f(*args, **kwargs)
+  File "/usr/src/app/app/views.py", line 67, in put
+    model = load(path)
+  File "/usr/local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+TypeError: expected str, bytes or os.PathLike object, not Response
+19-Dec-21 22:51:11 - log - INFO - Model 0 deleted
+19-Dec-21 22:51:11 - log - INFO - Model 1 deleted
+19-Dec-21 22:51:14 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:14] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:19 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:19] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:24 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:24] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:29 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:29] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:34 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:34] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:39 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:39] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:44 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:44] "GET /metrics HTTP/1.1" 200 -
+19-Dec-21 22:51:49 - werkzeug - INFO - 172.24.0.4 - - [19/Dec/2021 22:51:49] "GET /metrics HTTP/1.1" 200 -
