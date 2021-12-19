@@ -14,14 +14,8 @@ env:
 before_install:
   - sudo rm -rf /usr/local/bin/docker-compose
   - sudo curl -L "https://github.com/docker/compose/releases/download/{DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-<<<<<<< HEAD
   - chmod +x /usr/local/bin/docker-compose
   - docker-compose build 
-  
-=======
-  - chmod +x /usr/bin/docker-compose
-  - docker-compose build
->>>>>>> d482e7acb94ff7ac2c8e90220f170e4e50e032b3
   - docker tag dz3_worker:latest mishanko/pet-project:api_3
   - docker push mishanko/pet-project:api_3
 
