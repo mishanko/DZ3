@@ -2,6 +2,8 @@ from app import application
 import unittest
 
 class TestAPI(unittest.TestCase):
+    """Класс ля тестирования методов API
+    """
     def setUp(self) -> None:
         self.client = application.test_client(self)
 

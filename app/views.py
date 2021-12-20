@@ -53,7 +53,7 @@ class MLModel(Resource):
             return model, 200
         except IndexError:
             log.warning("Entered invalid model ID")
-            # api.abort(404, e)
+            
 
 
 @api.route('/api/ml_models/<int:id>/train')
@@ -98,7 +98,7 @@ class MLModelTrain(Resource):
             return path
         except KeyError or AttributeError:
             log.warning("Looks like you either forget X or y values")
-            # api.abort(404, e)
+            
 
     def _save_model(self, model:Union[DT, LR], id:int):
         log.info(f"Saving the model...")
@@ -128,7 +128,7 @@ class MLModelPredict(Resource):
             return prediction
         except KeyError:
             log.warning("Invalid model number or No trained models")
-            # api.abort(404, e)
+            
 
 
 @api.route('/api/ml_models/<int:id>/delete')
@@ -147,7 +147,7 @@ class MLModelDelete(Resource):
             return '', 204
         except KeyError:
             log.warning("Invalid model number")
-            # api.abort(404, e)
+            
 
 
 @api.route('/api/ml_models/<int:id>/retrain')
@@ -173,7 +173,6 @@ class MLModelRetrain(MLModelTrain):
             log.info(df)
             
             path = f'./app/models/model_{self.num}.joblib'
-            # dump(model, path)
 
             mlflow.set_experiment("classification")
             with mlflow.start_run(run_name='classification_task'):
@@ -184,12 +183,10 @@ class MLModelRetrain(MLModelTrain):
                 signature = infer_signature(np.array(X), clf.predict(X))
                 dump(clf, path)   
                 mlflow.sklearn.log_model(clf, 'skl_model_', signature=signature, registered_model_name='trained_model_')
-            log.info(path)
             log.info("Retraining finished!")
             return path
         except KeyError:
             log.warning("Looks like you forget X or num values")
-            # api.abort(404, e)
 
     def _save_model(self, model:Union[DT, LR], id:int):
         log.info(f"Saving the model...")
