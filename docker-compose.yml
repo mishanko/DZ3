@@ -40,3 +40,5 @@ services:
     volumes:
       - ./app/mlflow:/usr/src/app/mlflow
       - ./app/models:/usr/src/app/app/models
+      - ./app/mlflow/mlflow.db:/usr/src/app/mlflow/mlflow.db
+      - ./app/mlflow/mlartifacts:/usr/src/app/mlflow/mlartifacts

@@ -1,0 +1,111 @@
+20-Dec-21 09:09:10 - log - INFO - http://mlflow:5000/
+20-Dec-21 09:09:10 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f14e56df220>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+20-Dec-21 09:09:14 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f14e56ccc40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+20-Dec-21 09:09:22 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f14e56d5760>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+20-Dec-21 09:09:38 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f14e56d58e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+20-Dec-21 09:10:10 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f14e56d5d30>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=classification
+20-Dec-21 09:10:12 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+20-Dec-21 09:10:12 - werkzeug - INFO -  * Running on http://172.18.0.2:8080/ (Press CTRL+C to quit)
+20-Dec-21 09:10:16 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:16] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:26 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:26] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:31 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:31] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:50] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:10:55 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:10:55] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:00 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:00] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:05 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:05] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:10 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:10] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:15 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:15] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:25 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:25] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:26 - log - INFO - http://mlflow:5000/
+20-Dec-21 09:11:26 - log - INFO - Trained models = {1: {}, 2: {}}
+20-Dec-21 09:11:26 - log - INFO - MODEL id = 1 CLASS = logreg TRAINED = False
+20-Dec-21 09:11:26 - log - INFO - MODEL id = 2 CLASS = tree TRAINED = False
+20-Dec-21 09:11:26 - log - INFO - Preparing to train...
+20-Dec-21 09:11:26 - log - INFO - Start training
+20-Dec-21 09:11:30 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:30] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:32 - log - INFO - Training finished!
+20-Dec-21 09:11:32 - log - INFO - Saving the model...
+20-Dec-21 09:11:32 - log - INFO - Model 'trained' status changed to True
+20-Dec-21 09:11:32 - log - INFO - Preparing to train...
+20-Dec-21 09:11:32 - log - INFO - Start training
+20-Dec-21 09:11:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:36 - log - INFO - Training finished!
+20-Dec-21 09:11:36 - log - INFO - Saving the model...
+20-Dec-21 09:11:36 - log - INFO - Model 'trained' status changed to True
+20-Dec-21 09:11:36 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 1
+20-Dec-21 09:11:36 - log - INFO - Here is the prediction: {'Prediction': '[0]'} for 2
+20-Dec-21 09:11:36 - log - INFO - Prepating to retrain...
+20-Dec-21 09:11:36 - log - INFO - Start retraining
+20-Dec-21 09:11:36 - log - INFO - 0
+20-Dec-21 09:11:36 - log - INFO - {'X': [[1, 2, 3], [3, 2, 1]], 'num': '0', 'y': [0, 1]}
+20-Dec-21 09:11:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:41 - log - INFO - ./app/models/model_0.joblib
+20-Dec-21 09:11:41 - log - INFO - Retraining finished!
+20-Dec-21 09:11:41 - log - INFO - Saving the model...
+20-Dec-21 09:11:41 - log - INFO - Model 'trained' status changed to True
+20-Dec-21 09:11:41 - log - INFO - Prepating to retrain...
+20-Dec-21 09:11:41 - log - INFO - Start retraining
+20-Dec-21 09:11:41 - log - INFO - 1
+20-Dec-21 09:11:41 - log - INFO - {'X': [[1, 2, 3], [3, 2, 1]], 'num': '1', 'y': [0, 1]}
+20-Dec-21 09:11:45 - log - INFO - ./app/models/model_1.joblib
+20-Dec-21 09:11:45 - log - INFO - Retraining finished!
+20-Dec-21 09:11:45 - log - INFO - Saving the model...
+20-Dec-21 09:11:45 - log - INFO - Model 'trained' status changed to True
+20-Dec-21 09:11:45 - log - INFO - Model 0 deleted
+20-Dec-21 09:11:45 - log - INFO - Model 1 deleted
+20-Dec-21 09:11:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:50] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:11:55 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:11:55] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:00 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:00] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:05 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:05] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:10 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:10] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:15 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:15] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:25 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:25] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:30 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:30] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:50] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:12:55 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:12:55] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:00 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:00] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:05 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:05] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:10 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:10] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:15 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:15] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:25 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:25] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:30 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:30] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:50] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:13:55 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:13:55] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:00 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:00] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:05 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:05] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:10 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:10] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:15 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:15] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:25 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:25] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:30 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:30] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:50] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:14:55 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:14:55] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:00 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:00] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:05 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:05] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:10 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:10] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:15 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:15] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:20 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:20] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:25 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:25] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:30 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:30] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:35 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:35] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:40 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:40] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:45 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:45] "GET /metrics HTTP/1.1" 200 -
+20-Dec-21 09:15:50 - werkzeug - INFO - 172.18.0.3 - - [20/Dec/2021 09:15:50] "GET /metrics HTTP/1.1" 200 -
